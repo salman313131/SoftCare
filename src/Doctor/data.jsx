@@ -1,0 +1,18 @@
+export const data=[
+    {id:1,
+    name:'xyz',
+    specialty: 'ortho',
+    timing: new Date().getTime() },
+    {id:2,
+    name:'xyz',
+    specialty: 'ortho',
+    timing: new Date().getTime() },
+    {id:3,
+    name:'xyz',
+    specialty: 'ortho',
+    timing: new Date().getTime() },
+    {id:4,
+    name:'xyz',
+    specialty: 'ortho',
+    timing: new Date().getTime() },
+]

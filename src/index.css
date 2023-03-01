@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@100&family=Mynerve&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../src/assets/CareSoft.jpg);
+    background-size: cover;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left:  10%;
+}
+.navbar-container input{
+    padding: 5px;
+}
+.logo{
+    color: rgb(31, 235, 48);
+    font-size: 28px;
+}
+span{
+    color: rgb(7, 103, 212);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgba(0, 0, 0, 0.815);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(7, 103, 212);
+    transition: .3s;
+    
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 50%;
+    padding-bottom: 10px;
+}
+.component-container{
+    padding-left: 15%;
+    padding-top: 13%;
+}
+.component-container ul{
+    display:grid;
+    grid-template-columns: 40px 40px;
+    grid-auto-rows: 40px;
+    gap: 150px
+}
+.component-container ul li{
+    list-style-type: none;
+    background-color: rgba(107, 105, 105, 0.432);
+    border: 2px solid rgba(54, 54, 54, 0.041);
+    width: 150px;
+    height: 80px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.component-container ul li a {
+    color: rgba(0, 0, 0, 0.815);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    
+
+}
+.component-container ul li a:hover{
+    color: rgb(7, 103, 212);
+    transition: .3s;
+    font-weight: bolder;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: #645cff;
+    border-radius: 0.25rem;
+    border: transparent;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out all;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.patient-button a{
+    cursor: pointer;
+    color: white;
+    background-color: #645cff;
+    border-radius: 0.25rem;
+    border: transparent;
+    letter-spacing: 1px;
+    padding: 0.375rem 0.75rem;
+    text-decoration: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease-in-out all;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.patient-booking-form{
+    background-color: rgba(115, 107, 221, 0.322);
+    width: 300px;
+    margin-top: 100px;
+    position: fixed;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.patient-form{
+    display: grid;
+    grid-template-rows:max-content;
+    gap: 5px;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.patient-form label{
+    display: block;
+    font-size: 18px;
+}
+.patient-form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.patient-form input:hover{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+.patient-form select{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    box-shadow: none;
+}
+.patient-form select option{
+    background-color: #fff;
+    color: #333;
+}
+.patient-form select option:hover{
+    background-color: #ccc;
+    color: #fff;
+}
+.form-btn{
+    margin-top: 10px;
+}
+.patient-review{
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 50%;
+    padding: 10px;
+}
+.patient-review-main{
+    margin-top: 10px;
+    background-color: #d8cdcd;
+    border-radius: 0.25rem;
+}
+.patient-review-main p{
+    padding: 10px;
+    font-size: large;
+}
+.patient-review-header{
+    display: grid;
+    grid-template-columns: 90px 120px;
+}
+.patient-review-header img{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.patient-review-header h3{
+    display: flex;
+    align-items: center;
+}
+.patient-register-login-form{
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+.patient-login-form-main{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+    background-color: rgb(235, 224, 224);
+    border-radius: 3%;
+}
+.patient-register-form-main{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 10px;
+    background-color: rgb(235, 224, 224);
+    border-radius: 3%;
+}
+.patient-login-form-main label,.patient-register-form-main label {
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.patient-login-form-main input,.patient-register-form-main input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.patient-login-form-main button,.patient-register-form-main button{
+    margin-top: 10px;
+}
+.patient-login-form-main p,.patient-register-form-main p{
+    padding: 5px;
+    margin-top: 5px;
+}
+.patient-login-form-main p a,.patient-register-form-main p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.doctor-register-login-form {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: left;
+    padding-left: 80px;
+}
+
